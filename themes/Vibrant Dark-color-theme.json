@@ -1,0 +1,160 @@
+{
+	"name": "Vibrant Dark",
+	"type": "dark",
+	"colors": {
+		"activityBar.background": "#1A1C25",
+		"activityBarBadge.background": "#9634cb",
+		"debugToolBar.background": "#090B10",
+		"editor.background": "#0F111A",
+		"editorHoverWidget.background": "#0F111A",
+		"editorGroupHeader.tabsBackground": "#1A1C25",
+		"notifications.background": "#090B10",
+		"sideBar.background": "#181A1F",
+		"tab.inactiveBackground": "#191A21",
+		"titleBar.activeBackground": "#090B10",
+		"dropdown.background": "#090B10"
+	},
+	"tokenColors": [
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ac5ed6"
+			}
+		},
+		{
+			"name": "Control Keyword",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#bd7fdf"
+			}
+		},
+		{
+			"name": "Operator Keyword",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ce9fe7"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#e3c9f1"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#ececb6"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function",
+				"variable.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#cccc32"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+				"variable.language",
+				"entity.name.import",
+				"entity.name.package",
+				"storage.modifier.import",
+				"storage.modifier.package"
+			],
+			"settings": {
+				"foreground": "#adad2b"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": [
+				"storage.type",
+				"entity.other",
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#cc9932",
+			}
+		},
+		{
+			"name": "Line Comment",
+			"scope": [
+				"comment.line"
+			],
+			"settings": {
+				"foreground": "#58a558"
+			}
+		},
+		{
+			"name": "Block Comment",
+			"scope": [
+				"comment.block"
+			],
+			"settings": {
+				"foreground": "#4cb14c"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#b6ecb6"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#1a6a1a"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		}
+	]
+}
