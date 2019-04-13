@@ -1,0 +1,23 @@
+{
+    "name": "vscode-vibrant-dark",
+    "displayName": "vscode-vibrant-dark",
+    "publisher": "aedans",
+    "description": "",
+    "version": "0.0.1",
+    "repository": "https://github.com/aedans/vscode-vibrant-dark",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vibrant Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vibrant Dark-color-theme.json"
+            }
+        ]
+    }
+}
