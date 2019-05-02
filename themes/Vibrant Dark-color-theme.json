@@ -22,7 +22,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#ac5ed6"
+				"foreground": "#ae55de"
 			}
 		},
 		{
@@ -31,16 +31,18 @@
 				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#bd7fdf"
+				"foreground": "#be79e5"
 			}
 		},
 		{
 			"name": "Operator Keyword",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"constant",
+				"variable.language"
 			],
 			"settings": {
-				"foreground": "#ce9fe7"
+				"foreground": "#cf9aeb"
 			}
 		},
 		{
@@ -51,16 +53,20 @@
 				"punctuation.accessor"
 			],
 			"settings": {
-				"foreground": "#e3c9f1"
+				"foreground": "#e3c6f3"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": [
-				"variable"
+				"variable",
+				"entity.name.import",
+				"entity.name.package",
+				"storage.modifier.import",
+				"storage.modifier.package"
 			],
 			"settings": {
-				"foreground": "#ececb6"
+				"foreground": "#f1f1b0"
 			}
 		},
 		{
@@ -71,21 +77,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#cccc32"
-			}
-		},
-		{
-			"name": "Constant",
-			"scope": [
-				"constant",
-				"variable.language",
-				"entity.name.import",
-				"entity.name.package",
-				"storage.modifier.import",
-				"storage.modifier.package"
-			],
-			"settings": {
-				"foreground": "#adad2b"
+				"foreground": "#d7d726"
 			}
 		},
 		{
@@ -96,7 +88,7 @@
 				"entity.name"
 			],
 			"settings": {
-				"foreground": "#cc9932",
+				"foreground": "#d79d26",
 			}
 		},
 		{
@@ -123,7 +115,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#b6ecb6"
+				"foreground": "#b1f0b1"
 			}
 		},
 		{
@@ -132,7 +124,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#1a6a1a"
+				"foreground": "#156e15"
 			}
 		},
 		{
